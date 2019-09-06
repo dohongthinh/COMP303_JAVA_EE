@@ -6,10 +6,9 @@
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
 </head>
-
 <body>
-<% 
-	out.println("my first page");
-%>
+	<%
+	out.println("My first page");
+	%>
 </body>
 </html>
