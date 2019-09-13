@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="chapter02/hello-world/src/main/java"/>
+	<classpathentry kind="src" path="chapter02/hello-world/src/test/java"/>
+	<classpathentry kind="src" path="chapter03/bean-aliases/src/main/java"/>
+	<classpathentry kind="src" path="chapter03/bean-aliases/src/test/java"/>
+	<classpathentry kind="src" path="chapter03/bean-autowiring/src/main/java"/>
+	<classpathentry kind="src" path="chapter03/bean-inheritance/src/main/java"/>
+	<classpathentry kind="src" path="chapter03/bean-instantiation-mode/src/main/java"/>
+	<classpathentry kind="src" path="chapter03/cdl/src/main/java"/>
+	<classpathentry kind="src" path="chapter03/collections/src/main/java"/>
+	<classpathentry kind="src" path="chapter03/dependency-pull/src/main/java"/>
+	<classpathentry kind="src" path="chapter03/method-replacement/src/main/java"/>
+	<classpathentry kind="src" path="chapter03/nesting/src/main/java"/>
+	<classpathentry kind="src" path="chapter03/simple-types/src/main/java"/>
+	<classpathentry kind="src" path="SpringDemo/src"/>
+	<classpathentry kind="output" path="SpringDemo/bin"/>
+</classpath>
