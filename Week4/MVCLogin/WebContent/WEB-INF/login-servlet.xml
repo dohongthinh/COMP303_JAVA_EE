@@ -15,7 +15,7 @@
       <property name="suffix" value=".jsp" />
    </bean>
    
-   <bean id="employeeBean" name="employeeBean" class="com.spring.mvc.EmployeeBean">
+   <bean id="yogaBean" name="yogaBean" class="com.spring.mvc.YogaBean">
     </bean>
    
    </beans>
