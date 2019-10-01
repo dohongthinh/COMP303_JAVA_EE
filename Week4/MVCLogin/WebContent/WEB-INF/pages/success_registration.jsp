@@ -7,7 +7,18 @@
 <title>Success Login</title>
 </head>
 <body>
-<h3>You are successfully logged in</h3>
-<h3>${message}</h3>
+<h3>Hi ${name}</h3>
+<p>Your registration details are as follows:</p>
+<ul>
+  <li>Email address: ${email}</li>
+  <li>Phone number: ${contactNumber}</li>
+  <li>Gender: ${gender}</li>
+  <li>Age: ${age}</li>
+  <li>Batch: ${batch}</li>
+  <li>Yoga: ${yogaType}</li>
+  <li>City: ${city}</li>
+</ul>
+<h3>Your online registration is completed.</h3>
+<h3>Class will be starting soon</h3>
 </body>
 </html>
