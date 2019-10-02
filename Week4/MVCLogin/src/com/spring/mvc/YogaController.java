@@ -55,10 +55,19 @@ public class YogaController {
 				mview.addObject("age", age);
 				mview.addObject("city", city);
 				mview.addObject("gender", gender);
-				mview.addObject("batch", batch);
-				for(String yoga : yogaTypes)
+				mview.addObject("batch", batch);				
+				for(int i=0;i< yogaTypes.length;i++)
 				{
-					yogaType = yogaType+", "+ yoga; 
+					yogaType = yogaType+ yogaTypes[i];
+					if(i<yogaTypes.length)
+					{
+						yogaType = yogaType+ ", ";
+					}
+					else
+					{
+						break;
+					}
+					
 				}
 				mview.addObject("yogaType",yogaType);
 				return mview;
